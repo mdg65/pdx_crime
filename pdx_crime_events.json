@@ -1,0 +1,72 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "CATEGORY" : "CATEGORY",
+    "CALL_GROUP" : "CALL_GROUP",
+    "final_case" : "final_case",
+    "CASE_DESC" : "CASE_DESC",
+    "occ_date" : "occ_date",
+    "x_coordina" : "x_coordina",
+    "y_coordina" : "y_coordina",
+    "census_tra" : "census_tra"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 2913,
+    "latestWkid" : 2913
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "CATEGORY",
+      "type" : "esriFieldTypeString",
+      "alias" : "CATEGORY",
+      "length" : 254
+    },
+    {
+      "name" : "CALL_GROUP",
+      "type" : "esriFieldTypeString",
+      "alias" : "CALL_GROUP",
+      "length" : 254
+    },
+    {
+      "name" : "final_case",
+      "type" : "esriFieldTypeString",
+      "alias" : "final_case",
+      "length" : 254
+    },
+    {
+      "name" : "CASE_DESC",
+      "type" : "esriFieldTypeString",
+      "alias" : "CASE_DESC",
+      "length" : 254
+    },
+    {
+      "name" : "occ_date",
+      "type" : "esriFieldTypeDate",
+      "alias" : "occ_date",
+      "length" : 8
+    },
+    {
+      "name" : "x_coordina",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "x_coordina"
+    },
+    {
+      "name" : "y_coordina",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "y_coordina"
+    },
+    {
+      "name" : "census_tra",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "census_tra"
+    }
+  ],
+  "features" : [{"attributes":{"FID":1,"CATEGORY":"OTHER","CALL_GROUP":"DISORDER","final_case":"PARTY","CASE_DESC":"PARTY DISTURBANCE","occ_date":1470355200000,"x_coordina":7662605.0,"y_coordina":667163.0,"census_tra":402.0},"geometry":{"x":7662605,"y":667163}}]
+}
